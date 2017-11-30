@@ -3,4 +3,5 @@ Welcome to Making Stuff with the Raspberry Pi. We will be making amazing (and oc
 
 Like the Jedis of Old Republic, who built their own lightsabers, we will be building our own computers. We will add pieces and parts and reconfigure them into new creations.
 
-[Pi Board]:(https://s3.eu-west-2.amazonaws.com/learning-resources-production/projects/raspberry-pi-getting-started/0411a982f4bc881b6e2a1ec5d9b92f6385046160/en/images/pi-plug-in.gif)
+![Pi Board]
+(https://s3.eu-west-2.amazonaws.com/learning-resources-production/projects/raspberry-pi-getting-started/0411a982f4bc881b6e2a1ec5d9b92f6385046160/en/images/pi-plug-in.gif)
