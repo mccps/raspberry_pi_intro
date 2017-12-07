@@ -17,7 +17,7 @@ In the ‘More Blocks’ section you should now see the additional blocks for co
 
 To react to a button connected to GPIO pin 2.0, simply set the pin as input, and use the ‘gpio (x) is high?’ block to check the button’s state. In the example below, the Scratch cat will say “Pressed” only when the button is being held down.
 
-## Lets Light It Up
+## Let's Light It Up
 ### Supplies
 - 1 x LED
 - 1 X 100 - 220 ohm resistor
@@ -26,13 +26,7 @@ To react to a button connected to GPIO pin 2.0, simply set the pin as input, and
 
 Let's get hands-on with electronics! This is where the Raspberry Pi comes in handy. You will program a light-emitting diode (LED) to flash. First you will need to make a circuit.
 
-The LED has a short leg and a long leg. Slot a jumper wire onto the long leg.
-
-Slot the resistor into the other end of the same jumper wire.
-
-Add another jumper wire the other end of the resistor.
-
-Take another jumper wire and slot one end onto the short leg of the LED. You should end up with something that looks like this:
+The LED has a short leg and a long leg. Put the long leg (positive, anode) into one row of the breadboard and shorter leg (negative, cathode) into a differt row. Slot the resistor into the other end of the same jumper wire. Add another jumper wire the other end of the resistor. Take another jumper wire and slot one end onto the short leg of the LED. You should end up with something that looks like this:
 
 ## Resources
 [Scratch 2.0 on Raspberrypi.org](https://www.raspberrypi.org/blog/scratch-2-raspberry-pi/)
