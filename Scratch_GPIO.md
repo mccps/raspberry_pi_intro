@@ -26,7 +26,7 @@ To react to a button connected to GPIO pin 2.0, simply set the pin as input, and
 
 Let's get hands-on with electronics! This is where the Raspberry Pi comes in handy. You will program a light-emitting diode (LED) to flash. First you will need to make a circuit.
 
-The LED has a short leg and a long leg. Put the long leg (positive, anode) into one row of the breadboard and shorter leg (negative, cathode) into a differt row. Slot the resistor into the other end of the same jumper wire. Add another jumper wire the other end of the resistor. Take another jumper wire and slot one end onto the short leg of the LED. You should end up with something that looks like this:
+The LED has a short leg and a long leg. Put the long leg (positive, anode) into one row of the breadboard and shorter leg (negative, cathode) into a different row. Slot the resistor into the other end of the same jumper wire. Add another jumper wire the other end of the resistor. Take another jumper wire and slot one end onto the short leg of the LED. You should end up with something that looks like this:
 
 ## Resources
 [Scratch 2.0 on Raspberrypi.org](https://www.raspberrypi.org/blog/scratch-2-raspberry-pi/)
