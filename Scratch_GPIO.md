@@ -15,7 +15,7 @@ In the ‘More Blocks’ section you should now see the additional blocks for co
 
 ![GPIO_Sequence](https://www.raspberrypi.org/app/uploads/2017/06/led.png)
 
-To react to a button connected to GPIO pin 2.0, simply set the pin as input, and use the ‘gpio (x) is high?’ block to check the button’s state. In the example below, the Scratch cat will say “Pressed” only when the button is being held down.
+To react to a button connected to GPIO pin 2.0, simply set the pin as input, and use the ‘gpio (x) is high?’ block to check the button’s state.
 
 ## Let's Light It Up
 ### Supplies
