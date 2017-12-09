@@ -20,7 +20,7 @@ The LED has a short leg and a long leg. Put the long leg (positive, anode) into 
 ## Starting Python 
 Open up Python on your Raspberry Pi (Programming > Python 3). Once the Python IDLE window opens, go to File > New File to type your code.
 
-##Python Code
+## Python Code
 
 ```python
 # Flashing LED
@@ -37,7 +37,7 @@ while TRUE:
 
 
 ```
-##Other Code to Try
+## Other Code to Try
 
 
 ## Resources
