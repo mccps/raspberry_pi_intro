@@ -34,8 +34,10 @@ The LED has a short leg and a long leg. Put the long leg (positive, anode) into 
 ![RPi_Breadboard](https://image.ibb.co/dhBW7w/RPi_LED_bb2.png)
 
 ## Scratch
-Once your circuit is wired up, we add code to Scratch to send power to the LED. In the diagram above we have the positive leg of the LED to GPIO pin #4 (even though it is the 7th pin from the top). Make sure you refer to the pin diagram at beginning to make sure you are using the correct pins ( ***Using the wrong pins can damage your Pi and electrical components***)
+Once your circuit is wired up, we add code to Scratch to send power to the LED. In the diagram above we have the positive leg of the LED to GPIO pin #4 (even though it is the 7th pin from the top). Make sure you refer to the pin diagram at beginning to make sure you are using the correct pins (***Using the wrong pins can damage your Pi and electrical components***).
 
+Drag the Scratch scripts shown below and connect them in order. Before running the code, can you predict what the LED will do?
+***SCRATCH CODE HERE***
 
 
 ## Resources
