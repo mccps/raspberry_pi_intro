@@ -1,20 +1,6 @@
 # Pi Class 2a: Lighting Up and LED and Breadboards
 ## Python GPIO
 
-## Starting Python
-Open up Scratch 2.0 on your Raspberry Pi (Programming > Scratch 2.0).
-
-## Starting the server
-Scratch 2.0 on the Raspberry Pi allows you to create code to control and respond to components connected to the Pi’s GPIO pins. This means that your Scratch projects can light LEDs, sound buzzers and use input from buttons and a range of sensors to control the behaviour of sprites. Interacting with GPIO pins use custom blocks for setting pin output and getting current pin state.
-
-![Pi GPIO Exension](https://www.raspberrypi.org/app/uploads/2017/06/extension.png)
-
-In the ‘More Blocks’ section you should now see the additional blocks for controlling and responding to your Pi GPIO pins. To give an example, the entire code for repeatedly flashing an LED connected to GPIO pin 2.0 is now:
-
-![GPIO_Sequence](https://www.raspberrypi.org/app/uploads/2017/06/led.png)
-
-To react to a button connected to GPIO pin 2.0, simply set the pin as input, and use the ‘gpio (x) is high?’ block to check the button’s state.
-
 ## Let's Light It Up
 ### Supplies
 - 1 x LED
@@ -31,12 +17,28 @@ The LED has a short leg and a long leg. Put the long leg (positive, anode) into 
 
 ![RPi_Breadboard](https://image.ibb.co/dhBW7w/RPi_LED_bb2.png)
 
-## Scratch
-Once your circuit is wired up, we add code to Scratch to send power to the LED. In the diagram above we have the positive leg of the LED to GPIO pin #4 (even though it is the 7th pin from the top). Make sure you refer to the pin diagram at beginning to make sure you are using the correct pins (***Using the wrong pins can damage your Pi and electrical components***).
+## Starting Python 
+Open up Python on your Raspberry Pi (Programming > Python 3). Once the Python IDLE window opens, go to File > New File to type your code.
 
-Drag the Scratch scripts shown below and connect them in order. Before running the code, can you predict what the LED will do?
-***SCRATCH CODE HERE***
+##Python Code
+
+```python
+# Flashing LED
+from gpiozero import led
+from time import sleep
+
+led = LED(17)
+
+while TRUE:
+	led.on()
+	sleep(1)
+	led.off()
+	sleep(1)
+
+
+```
+##Other Code to Try
 
 
 ## Resources
-[Scratch 2.0 on Raspberrypi.org](https://www.raspberrypi.org/blog/scratch-2-raspberry-pi/)
+[LED documentation](https://gpiozero.readthedocs.io)
