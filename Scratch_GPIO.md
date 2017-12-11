@@ -34,10 +34,17 @@ The LED has a short leg and a long leg. Put the long leg (positive, anode) into 
 ![RPi_Breadboard](https://image.ibb.co/mzy8sw/Screen_Shot_2017_12_11_at_9_34_20_AM.png)
 
 ## Scratch
-Once your circuit is wired up, we add code to Scratch to send power to the LED. In the diagram above we have the positive leg of the LED to GPIO pin #4 (even though it is the 7th pin from the top). Make sure you refer to the pin diagram at beginning to make sure you are using the correct pins (***Using the wrong pins can damage your Pi and electrical components***).
+Once your circuit is wired up, we add code to Scratch to send power to the LED. In the diagram above we have the positive leg of the LED to GPIO pin #17 (even though it is the 6th pin from the top). Make sure you refer to the pin diagram at beginning to make sure you are using the correct pins (***Using the wrong pins can damage your Pi and electrical components***).
 
 Drag the Scratch scripts shown below and connect them in order. Before running the code, can you predict what the LED will do?
-***SCRATCH CODE HERE***
+![Scratch LED Sequence](https://image.ibb.co/d3N4zb/scratch_led_sequence.jpg)
+
+## You've Made Light!
+Now that you've mastered one led, can you:
+- Flash your LED at different speeds, how fast can you make it flash?
+- Can you make a dot (short flash) and dash (long flash) and use to make a distress beacon. S(...) O(---) S(...)
+- Add more LEDs to create a set of traffic lights and program an appropriate sequence.
+
 
 
 ## Resources
