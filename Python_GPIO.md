@@ -38,6 +38,26 @@ while TRUE:
 
 ```
 ## Other Code to Try
+### Blink
+
+```python
+# Flashing LED
+
+from gpiozero import LED
+
+led = LED(17)
+
+led.blink()
+```
+Try some other values in led.blink(), what would these do:
+- led.blink(5)
+- led.blink(2, 0.5)
+- led.blink(0.1, 10)
+- led.blink(0.5, 0.5, 5, False)
+
+### Stoplight Challenge
+Can you create a stoplight with additional LEDs and pin?
+![Breadboard and Stoplight](https://image.ibb.co/kvKReb/Screen_Shot_2017_12_11_at_11_00_28_AM.png)
 
 
 ## Resources
