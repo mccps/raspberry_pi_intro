@@ -31,7 +31,7 @@ We will use a breadboard to quickly connect electronics into a circuit. The rows
 
 The LED has a short leg and a long leg. Put the long leg (positive, anode) into one row of the breadboard and shorter leg (negative, cathode) into a different row. Put one end of the resistor into same row as the negative, shorter leg of the LED. Put the other end of the resistor in the negative rail of the breadboard. Take another jumper wire and slot one end onto the short leg of the LED. You should end up with something that looks like this:
 
-![RPi_Breadboard](https://image.ibb.co/dhBW7w/RPi_LED_bb2.png)
+![RPi_Breadboard](https://image.ibb.co/mzy8sw/Screen_Shot_2017_12_11_at_9_34_20_AM.png)
 
 ## Scratch
 Once your circuit is wired up, we add code to Scratch to send power to the LED. In the diagram above we have the positive leg of the LED to GPIO pin #4 (even though it is the 7th pin from the top). Make sure you refer to the pin diagram at beginning to make sure you are using the correct pins (***Using the wrong pins can damage your Pi and electrical components***).
