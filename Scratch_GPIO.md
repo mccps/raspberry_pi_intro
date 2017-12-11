@@ -6,7 +6,7 @@ With the September 2015 release of Scratch for the Raspberry Pi,  there’s a ne
 ## Starting Scratch
 Open up Scratch 2.0 on your Raspberry Pi (Programming > Scratch 2.0).
 
-## Starting the server
+## Enable GPIO Pins in Scratch
 Scratch 2.0 on the Raspberry Pi allows you to create code to control and respond to components connected to the Pi’s GPIO pins. This means that your Scratch projects can light LEDs, sound buzzers and use input from buttons and a range of sensors to control the behaviour of sprites. Interacting with GPIO pins use custom blocks for setting pin output and getting current pin state.
 
 ![Pi GPIO Exension](https://www.raspberrypi.org/app/uploads/2017/06/extension.png)
@@ -29,7 +29,7 @@ We will use a breadboard to quickly connect electronics into a circuit. The rows
 
 ![Breadboard](https://image.ibb.co/iepjSw/Screen_Shot_2017_12_07_at_10_01_07_AM.png)
 
-The LED has a short leg and a long leg. Put the long leg (positive, anode) into one row of the breadboard and shorter leg (negative, cathode) into a different row. Put one end of the resistor into same row as the negative, shorter leg of the LED. Put the other end of the resistor in the negative rail of the breadboard. Take another jumper wire and slot one end onto the short leg of the LED. You should end up with something that looks like this:
+The LED has a short leg and a long leg. Put the long leg (positive, anode) into one row of the breadboard and shorter leg (negative, cathode) into a different row. Put one end of the resistor into same row as the negative, shorter leg of the LED. Put the other end of the resistor into it's own row. Use one jumper wire to connect the ground (GND) pin on the Raspberry Pi  to end of the resistor. Take another jumper wire and slot one end onto the short leg of the LED. Connect the other end to GPIO pin #17. You should end up with something that looks like this:
 
 ![RPi_Breadboard](https://image.ibb.co/mzy8sw/Screen_Shot_2017_12_11_at_9_34_20_AM.png)
 
