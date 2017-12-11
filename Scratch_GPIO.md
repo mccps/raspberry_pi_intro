@@ -37,6 +37,7 @@ The LED has a short leg and a long leg. Put the long leg (positive, anode) into 
 Once your circuit is wired up, we add code to Scratch to send power to the LED. In the diagram above we have the positive leg of the LED to GPIO pin #17 (even though it is the 6th pin from the top). Make sure you refer to the pin diagram at beginning to make sure you are using the correct pins (***Using the wrong pins can damage your Pi and electrical components***).
 
 Drag the Scratch scripts shown below and connect them in order. Before running the code, can you predict what the LED will do?
+
 ![Scratch LED Sequence](https://image.ibb.co/d3N4zb/scratch_led_sequence.jpg)
 
 ## You've Made Light!
