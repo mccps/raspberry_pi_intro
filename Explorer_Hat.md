@@ -1,3 +1,3 @@
-#Explorer Hat
+# Explorer Hat
 
-##Install Explorer Hat Software
+## Install Explorer Hat Software
