@@ -13,6 +13,7 @@ You know you'd like to experiment with some of things and build a project out of
 You know an end product or project, you just needs to figure out the pieces that make up that project.
 You can also think about (personal or community-based) needs that might drive your project. You can also try out these existing projects:
 - https://www.raspberrypi.org/resources/make/
+- https://projects.raspberrypi.org/
 - https://www.hackster.io/raspberry-pi/projects?difficulty=beginner
 - https://lifehacker.com/top-10-raspberry-pi-projects-for-beginners-1791002723
 
