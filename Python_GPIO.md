@@ -24,12 +24,12 @@ Open up Python on your Raspberry Pi (Programming > Python 3). Once the Python ID
 
 ```python
 # Flashing LED
-from gpiozero import led
+from gpiozero import LED
 from time import sleep
 
 led = LED(17)
 
-while TRUE:
+while True:
 	led.on()
 	sleep(1)
 	led.off()
